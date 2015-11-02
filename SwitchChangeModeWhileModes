@@ -57,10 +57,10 @@ def updated() {
 
 def switchHandler(evt) {
 	if (evt.value == "on") {
-    	changeMode(onMode)
-    } else {
-    	changeMode(offMode)
-    }
+    		changeMode(onMode)
+    	} else {
+    		changeMode(offMode)
+	}
 }
 
 def changeMode(newMode) {
