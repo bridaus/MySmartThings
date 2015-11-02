@@ -1,0 +1,5 @@
+private DebugIt(DebugText) {
+	log.debug DebugText
+	sendSms("mycellnumbernoformatting",DebugText)
+	sendPush(DebugText)
+}
